@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 html, body{
     scroll-behavior: smooth;
     background-color: #e12d30;
