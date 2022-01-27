@@ -55,14 +55,7 @@ html, body{
 .nav-menu h2{
     font-size: 60px;
 }
-.hidden h3{
-    font-size: 30px;
-}
-.hidden{
-    position: absolute;
-    visibility:hidden;
-    top: 143%; 
-}
+
 .menu-productos{
     width: 100%;
     background-color: #feeed4;
