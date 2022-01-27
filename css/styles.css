@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
 }
-body{
+html, body{
+    
     background-color: #e12d30;
     background-image: url(/IMG/background.jpg);
-
+    width: 100%;
+    height: 100%;
     background-size: 100%;
     background-repeat: repeat-y;
 }
@@ -20,9 +22,11 @@ body{
     display: flex;
     justify-content: center;
     list-style: none;
+    width: 100%;
     
 }
 .nav-menu ul li a{
+    
     text-decoration: none;
     display: block;
     font-size: 35px;
@@ -40,7 +44,7 @@ body{
     z-index: 2;
     position: fixed;
     width: 10%;
-    transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;-
 }
 .logo:hover{
     width: 11%;
@@ -49,9 +53,6 @@ body{
 .nav-menu h2{
     font-size: 60px;
 }
-.logo{
-    width: 10%;
-}
 .blondiecraftbar img{
     width: 100%;
     border-top: 3px solid black;
@@ -59,12 +60,14 @@ body{
 .menu-productos{
     width: 100%;
     background-color: #feeed4;
-    border: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 .menu-productos ul{
+    
     display: flex;
     justify-content: space-between;
-    margin: 0 10% 0 10%;
+    margin: 0 10% 0 ;
     list-style: none;
     
 }
@@ -149,12 +152,18 @@ body{
     width: 100%;
     
 }
+._button a{
+    position: absolute;
+    left: 47%;
+    top: 70%;
+    width: 20%;
+    transition: all 1s ease-in-out;
+}
+
 .slider{
     width: 100%;
     margin: auto;
     overflow: hidden;
-    
-    
 }
 .slider ul{
     display: flex;
