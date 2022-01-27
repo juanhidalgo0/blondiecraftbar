@@ -49,16 +49,13 @@ html, body{
     transition: all 0.1s ease-in;-
 }
 .logo:hover{
-    width: 11%;
+    width: 13%;
     
 }
 .nav-menu h2{
     font-size: 60px;
 }
-.blondiecraftbar img{
-    width: 100%;
-    border-top: 3px solid black;
-}
+
 .menu-productos{
     width: 100%;
     background-color: #feeed4;
@@ -166,14 +163,13 @@ html, body{
 .slider{
     
     width: 100%;
-    margin: auto;
+    line-height: 0;
     overflow: hidden;
 }
 .slider ul{
     display: flex;
     padding: 0;
     width: 400%;
-
     animation: cambio 20s infinite alternate;
     animation-timing-function: ease-in;
 
@@ -184,10 +180,18 @@ html, body{
     list-style: none;
 }
 .slider img{
-    max-width: 112%;
+    max-width: 100%;
     
 }
+.blondiecraftbar{
 
+    line-height: 0;
+}
+.blondiecraftbar img{
+    margin: 0;
+    width: 100%;
+    border-top: 3px solid black;
+}
 @keyframes cambio {
     0% { margin-left: 0; }
     20% { margin-left: 0; }
