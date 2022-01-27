@@ -108,6 +108,7 @@ html, body{
 }
 .n-hamburguesas h2:hover, .n-hamburguesas h3:hover{
     color: black;
+    
 }
 .cajas-hamburguesas{
     justify-content: center;
@@ -150,7 +151,7 @@ html, body{
 .logo-slider img{
     margin-top: 20%;
     position: absolute;
-    width: 100%;
+    width: vmax;
     
 }
 ._button a{
@@ -196,4 +197,26 @@ html, body{
 
     75% { margin-left: -300%; }
     100% { margin-left: -300%; }
+}
+.footer{
+    background-color: black;
+    width: 100%;
+
+
+}
+.footer ul{
+    display: flex; 
+    font-size: 30px;
+    list-style: none;
+    justify-content: center;
+    
+}
+.footer ul li{
+    margin: 1%;
+}
+.footer ul a{
+    font-family: "Bebas Neue", cursive;
+    color: #feeed4;
+    text-decoration: none;
+    
 }
