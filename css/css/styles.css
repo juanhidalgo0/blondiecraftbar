@@ -1,0 +1,225 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    
+    background-color: #e12d30;
+    background-image: url(/IMG/background.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+.page-header{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    
+}
+.nav-menu ul li a{
+    
+    text-decoration: none;
+    display: block;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0 20px 0 20px;
+    color: #feeed4;
+    transition: all 0.1s ease-out;
+ 
+}
+.nav-menu ul li a:hover{
+    color: white;  
+    border-top: 3px solid white;
+}
+.logo{  
+    z-index: 2;
+    position: fixed;
+    width: 10%;
+    transition: all 0.1s ease-in;-
+}
+.logo:hover{
+    width: 11%;
+    
+}
+.nav-menu h2{
+    font-size: 60px;
+}
+.blondiecraftbar img{
+    width: 100%;
+    border-top: 3px solid black;
+}
+.menu-productos{
+    width: 100%;
+    background-color: #feeed4;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.menu-productos ul{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 ;
+    list-style: none;
+    
+}
+.menu-productos ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    transition: all 0.1s ease;
+
+  }
+
+.menu-productos ul li a:hover{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 28px;
+    color: rgb(219, 37, 37);
+}
+
+.n-hamburguesas{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.n-hamburguesas h2{
+    text-transform: uppercase;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+    color: #feeed4;
+    
+}
+.n-hamburguesas h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #feeed4;
+}
+.n-hamburguesas h2:hover, .n-hamburguesas h3:hover{
+    color: black;
+    
+}
+.cajas-hamburguesas{
+    justify-content: center;
+    margin: 5% 10% 10% 10%;
+    max-width: 80%;
+    border: 3px solid black;
+}
+.cajas-hamburguesas h2{
+    margin: 4% 0 2% 4%;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+.cajas-hamburguesas h3{
+    font-size: 25px;
+    margin:  4% 0 2% 4%;
+    font-family: 'Rajdhani', sans-serif;
+}
+.cajas-hamburguesas h4{
+    margin: 5%;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Rajdhani', sans-serif;
+}
+.caja-1, .caja-2, .caja-3{
+    justify-content: center;
+    display: flex;
+}
+.hamb-1, .hamb-2, .hamb-3,  .hamb-4,.hamb-5, .hamb-6{
+    
+    margin: 1.5%;
+    width: 48%;
+    background-color: rgb(250, 231, 212);
+    border-radius: 50px 0 50px 0;
+
+}
+.hamb-1 img, .hamb-2 img,.hamb-3 img,.hamb-4 img, .hamb-5 img,  .hamb-6 img{
+    width: 100%;
+    border-radius: 50px 0 0 0;
+}
+
+.logo-slider{
+    margin-top: 20%;
+    position: absolute;
+    max-width: 100%;
+}
+._button a{
+    position: absolute;
+    left: 47%;
+    top: 70%;
+    width: 20%;
+    transition: all 1s ease-in-out;
+}
+
+.slider{
+    
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+
+
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    max-width: 112%;
+    
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}
+.footer{
+    background-color: black;
+    width: 100%;
+
+
+}
+.footer ul{
+    display: flex; 
+    font-size: 30px;
+    list-style: none;
+    justify-content: center;
+    
+}
+.footer ul li{
+    margin: 1%;
+}
+.footer ul a{
+    font-family: "Bebas Neue", cursive;
+    color: #feeed4;
+    text-decoration: none;
+    
+}
