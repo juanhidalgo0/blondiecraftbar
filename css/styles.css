@@ -18,6 +18,7 @@ html, body{
     opacity: 0.8;
     z-index: 1;
 }
+
 .nav-menu ul{
     display: flex;
     justify-content: center;
@@ -73,7 +74,7 @@ html, body{
 }
 .menu-productos ul li a{
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Bebas Neue', cursive;
     color: black;
     transition: all 0.1s ease;
@@ -81,9 +82,9 @@ html, body{
   }
 
 .menu-productos ul li a:hover{
-    border-bottom: 3px solid black;
-    border-top: 3px solid black;
-    font-size: 49px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 28px;
     color: rgb(219, 37, 37);
 }
 
