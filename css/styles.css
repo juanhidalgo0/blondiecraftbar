@@ -17,6 +17,7 @@
 
 html{
     scroll-behavior: smooth;
+    width: 80em;
 }
 body{
     background-color: #e12d30;
@@ -123,32 +124,32 @@ body{
     
 }
 .cajas-hamburguesas{
-    width: 80em;
+    width:80em;
     z-index: 1;
+    margin: auto;
+    border: 1px solid black;
     
 }
 .cajas-hamburguesas h2{
-    margin: 4% 0 2% 4%;
     font-size: 40px;
     font-family: 'Bebas Neue', cursive;
+    padding-left:.5em;
     color: #e12d30;
     border-bottom: 1px solid black;
 }
 .cajas-hamburguesas h3{
     font-size: 25px;
-    margin:  4% 0 2% 4%;
     font-family: 'Rajdhani', sans-serif;
-    border-bottom: 1px solid black;
+    padding: .5em;
+    height: 4em;
+    
 }
 .cajas-hamburguesas h4{
-    border-bottom: 1px solid black;
-    padding: 4%;
     font-size: 50px;
+    padding: .5em;
     color: black;
     text-align: right;
     font-family: "Bebas Neue", cursive;
-   
-
 }
 .cajas-hamburguesas h5{
     font-family: "Bebas Neue", cursive;
@@ -160,53 +161,45 @@ body{
 .cajas-hamburguesas h6{
     font-family: "Bebas Neue", cursive;
     font-size: 30px;
-    margin-left: 4%;
+    padding: .5em;
     border-bottom: 1px solid black;
+}
+.caja-7 .hamb-6{
+    height: 73em;
 }
 .extras{
     font-size: 20px;
     text-align: center;
     font-family: "Bebas Neue",cursive;
     width: 80rem;
-
     margin-bottom: 10%;
     border-radius: 10%;
     background-color: #feeed4;
 }
 
 .caja-1, .caja-2, .caja-3, .caja-4, .caja-5, .caja-6, .caja-7{
-    justify-content: center;
     display: flex;
-    
+    position: relative;
     
 }
 .hamb-1, .hamb-2, .hamb-3,  .hamb-4,.hamb-5, .hamb-6{
     transition: all 10s;
     border: 1px solid black;
-    margin: 1.5%;
-    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 35em;
+    height: 55em;
     background-color: rgb(250, 231, 212);
+    position: relative;
     
-}
-.caja-6 .hamb-6 h4{
-    font-size: 150px;
-    text-align: center;
-}
-.caja-7 .hamb-5{
-    height: 100%;
-}
-.caja-7{
-    margin-bottom: -10%;
 }
 .hamb-1 img, .hamb-2 img,.hamb-3 img,.hamb-4 img, .hamb-5 img,  .hamb-6 img{
-    width: 40em;
+    width: 35em;
     height: 30em;
     line-height: 0;
-    z-index: 99;
-
-    
+    z-index: 99; 
 }
-
 .logo-slider{
     margin-top: 20%;
     position: absolute;
@@ -271,20 +264,17 @@ body{
 }
 
 .whatsapp{
-    position: fixed;
-    margin: ;
-    z-index: 999;
+    position:fixed;
     width: 10em;
-    bottom: 0;
-    right: 0;
+    z-index: 99;
     transition: all 0.1s ease-in;
+    left: 68em;
+    bottom: 0;
 }
 .whatsapp img{
-    float: right;
-    width: 100%;
-    transition: all 0.1s ease-in;
+    width: 10em;
 }
-.whatsapp:hover{
+.whatsapp img:hover{
     width: 12em;
 }
 .footer{
