@@ -16,6 +16,7 @@
 }
 body{
     overflow-x: hidden;
+   
 }
 html, body{
     scroll-behavior: smooth;
@@ -123,58 +124,107 @@ html, body{
     
 }
 .cajas-hamburguesas{
-    justify-content: center;
     margin: 5% 10% 10% 10%;
     max-width: 80%;
-    border: 3px solid black;
+    z-index: 1;
 }
 .cajas-hamburguesas h2{
     margin: 4% 0 2% 4%;
     font-size: 40px;
     font-family: 'Bebas Neue', cursive;
+    color: #e12d30;
+    border-bottom: 1px solid black;
 }
 .cajas-hamburguesas h3{
     font-size: 25px;
     margin:  4% 0 2% 4%;
     font-family: 'Rajdhani', sans-serif;
+    border-bottom: 1px solid black;
 }
 .cajas-hamburguesas h4{
-    margin: 5%;
-    font-size: 40px;
+    border-bottom: 1px solid black;
+    padding: 4%;
+    font-size: 50px;
+    color: black;
     text-align: right;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Bebas Neue", cursive;
+   
+
 }
-.caja-1, .caja-2, .caja-3{
+.cajas-hamburguesas h5{
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #e3f822;
+    background-color: rgb(31, 31, 31);
+}
+.cajas-hamburguesas h6{
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+    margin-left: 4%;
+    border-bottom: 1px solid black;
+}
+.extras{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Bebas Neue",cursive;
+    width: 100%;
+
+    margin-bottom: 10%;
+    border-radius: 10%;
+    background-color: #feeed4;
+}
+
+.caja-1, .caja-2, .caja-3, .caja-4, .caja-5, .caja-6, .caja-7{
     justify-content: center;
     display: flex;
+    
+    
 }
 .hamb-1, .hamb-2, .hamb-3,  .hamb-4,.hamb-5, .hamb-6{
-    
+    transition: all 10s;
+    border: 1px solid black;
     margin: 1.5%;
     width: 48%;
     background-color: rgb(250, 231, 212);
-    border-radius: 50px 0 50px 0;
-
+    
+}
+.caja-6 .hamb-6 h4{
+    font-size: 150px;
+    text-align: center;
+}
+.caja-7 .hamb-5{
+    height: 100%;
+}
+.caja-7{
+    margin-bottom: -10%;
 }
 .hamb-1 img, .hamb-2 img,.hamb-3 img,.hamb-4 img, .hamb-5 img,  .hamb-6 img{
     width: 100%;
-    border-radius: 50px 0 0 0;
+    line-height: 0;
+    z-index: 99;
+
+    
 }
 
 .logo-slider{
     margin-top: 20%;
     position: absolute;
     max-width: 100%;
+    z-index: 999;
+}
+._button{
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    text-align: center;
 }
 ._button a{
     position: absolute;
-    left: 47%;
-    top: 70%;
-    width: 20%;
-    transition: all 1s ease-in-out;
 }
 
 .slider{
+    position: relative;
     
     width: 100%;
     line-height: 0;
@@ -219,11 +269,28 @@ html, body{
     75% { margin-left: -300%; }
     100% { margin-left: -300%; }
 }
+
+.whatsapp{
+    position: fixed;
+    margin: 2%;
+    z-index: 999;
+    width: 13%;
+    bottom: 0;
+    right: 0;
+    transition: all 0.1s ease-in;
+}
+.whatsapp img{
+    float: right;
+    width: 100%;
+    transition: all 0.1s ease-in;
+}
+.whatsapp:hover{
+    width: 15%;
+}
 .footer{
     background-color: black;
     width: 100%;
-
-
+    bottom: 0;
 }
 .footer ul{
     display: flex; 
