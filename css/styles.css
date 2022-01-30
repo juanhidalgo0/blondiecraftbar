@@ -86,10 +86,11 @@ body{
 .menu-productos ul{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
     padding-right: 1em;
     padding-left: 1em;
+
 
     
 
@@ -268,6 +269,9 @@ body{
     width: 100%;
     line-height: 0;
 }
+.menu-icon{
+    display: none;
+}
 .blondiecraftbar img{
     margin: 0;
     width:inherit;
@@ -330,33 +334,71 @@ body{
     }
 }
 @media (max-width: 992px){
-    body{
+    .#particles-js{
+        
+    }
+    .body{
         font-size:8px
     }
     .cajas-hamburguesas{
         width: 100%;
         border: 1px solid black;
-
         
+       
     }
+    .cajas-hamburguesas h3 {
+        display: inline-block;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        text-align: left;
+    }
+ 
     .hamb-1, .hamb-2, .hamb-3,  .hamb-4,.hamb-5, .hamb-6{
-        width: 20em;
-        height: 40em;
-        
+        overflow: auto;
+        margin: auto;
+        border-radius: 1em;
+        margin-bottom: 2em;
+        width: 30em;
+        height: 35em;
     }
-    .cajas-hamburguesas h4{
+    .caja-1, .caja-2, .caja-3, .caja-4, .caja-5, .caja-6, .caja-7{
+        display: block;
 
     }
+  
     .hamb-1 img, .hamb-2 img,.hamb-3 img,.hamb-4 img, .hamb-5 img,  .hamb-6 img{
-        width: 20em;
-        height: 15em;
+        width: 30em;
+        height: 22em;
     }
     .menu-productos{
-        max-width:100%;
-        
+        display: flex;       
     }
     .menu-productos ul{
-        display: inline-block;
+        display: none;
+        list-style: none;
+        font-family: "Bebas Neue"; cursive;
+        font-size: 0.7em;
+        max-width:100%;
+       
+    }
+    .menu-productos ul.show{
+        display: block;
+    }
+    .menu-icon{
+        z-index: 999;
+        width: 5em;
+        height: 5em;
+        border: 3px solid red;
+        display: block;
+        position: absolute;
+        right: 0;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    .menu-productos ul li{
+        display: block;
         padding: 0;
     }
     .slider{
@@ -365,8 +407,10 @@ body{
     .blondie-puerta{
         display: block;
     }
-    ._button{
-        top: ;
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        width: ;
     }
 
 }   
