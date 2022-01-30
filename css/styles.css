@@ -10,7 +10,7 @@
 
 html{
     scroll-behavior: smooth;
-    max-width: 100%;
+  
 }
 body{
     background-color: #e12d30;
@@ -19,14 +19,15 @@ body{
     background-repeat: repeat-y;
     font-size: 16px;
     overflow-x: hidden;
+    max-width: 100%;
 }
 #particles-js{
   
-    width: 80rem;
+    width: 100%;
     height:100vh;
     position:fixed;
     z-index: -1;
-    
+
 }
 .page-header{
     position: fixed;
@@ -62,13 +63,13 @@ body{
     border-top: 0.1875em solid white;
 }
 .logo{  
-    z-index: 2;
+    z-index: 2999;
     position: fixed;
-    width: 6em;
+    width: 8em;
     transition: all 0.1s ease-in;
 }
 .logo:hover{
-    width: 7em;
+    width: 10em;
     
 }
 .nav-menu h2{
@@ -76,34 +77,40 @@ body{
 }
 
 .menu-productos{
-
+   
     width: 100%;
     background-color: #feeed4;
     border-top: 0.1875em solid black;
     border-bottom: 0.1875em solid black;
 }
 .menu-productos ul{
-
+    width: 100%;
     display: flex;
     justify-content: center;
     list-style: none;
+    padding-right: 1em;
+    padding-left: 1em;
+
     
+
 }
 .menu-productos ul li a{
+    
+    
+    width: 100%;
     text-decoration: none;
-    font-size: 1.875em;
+    font-size: 3em;
     font-family: 'Bebas Neue', cursive;
     color: black;
     margin-left: .5em;
     margin-right: .5em;
-    transition: all 0.1s ease;
+    
 
   }
 
 .menu-productos ul li a:hover{
     border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    font-size: 1.75em;
+    font-size: 2.75em;
     color: rgb(219, 37, 37);
 }
 
@@ -133,8 +140,9 @@ body{
     width:74em;
     z-index: 1;
     margin: auto;
-    border: 1px solid black;
-    
+    margin-top: 2em;
+
+
 }
 .cajas-hamburguesas h2{
     font-size:  2.5em;
@@ -176,7 +184,7 @@ body{
     height: 75em;
 }
 .extras{
-    font-size: 1.25em;
+    font-size: 1.70em;
     text-align: center;
     font-family: "Bebas Neue",cursive;
     width: 100%;
@@ -193,6 +201,7 @@ body{
 .hamb-1, .hamb-2, .hamb-3,  .hamb-4,.hamb-5, .hamb-6{
     transition: all 10s;
     border: 1px solid black;
+    border-radius:  0 5em 0 5em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
@@ -203,6 +212,7 @@ body{
     
 }
 .hamb-1 img, .hamb-2 img,.hamb-3 img,.hamb-4 img, .hamb-5 img,  .hamb-6 img{
+    border-radius:0 5em 0 0;
     width: 35em;
     height: 30em;
     line-height: 0;
@@ -216,8 +226,9 @@ body{
 }
 ._button{
     position: absolute;
+    
     width: 100%;
-    top: 40em;
+    top: 85%;
     text-align: center;
 }
 ._button a{
@@ -230,6 +241,10 @@ body{
     width: 100%;
     line-height: 0;
     overflow: hidden;
+}
+.blondie-puerta{
+    width: 100%;
+    display:none;
 }
 .slider ul{
     display: flex;
@@ -275,16 +290,17 @@ body{
 .whatsapp{
     position:fixed;
     z-index: 99;
-    transition: all 0.1s ease-in;
     right: 0;
     bottom: 0;
     margin: 1em;
+    transition: all 0.1s ease-in;
 }
 .whatsapp img{
     width: 10em;
+    transition: all 0.1s ease-in;
 }
 .whatsapp img:hover{
-    width: 11em;
+    width: 13em;
 }
 .footer{
     background-color: black;
@@ -313,3 +329,44 @@ body{
         font-size: 10px;
     }
 }
+@media (max-width: 992px){
+    body{
+        font-size:8px
+    }
+    .cajas-hamburguesas{
+        width: 100%;
+        border: 1px solid black;
+
+        
+    }
+    .hamb-1, .hamb-2, .hamb-3,  .hamb-4,.hamb-5, .hamb-6{
+        width: 20em;
+        height: 40em;
+        
+    }
+    .cajas-hamburguesas h4{
+
+    }
+    .hamb-1 img, .hamb-2 img,.hamb-3 img,.hamb-4 img, .hamb-5 img,  .hamb-6 img{
+        width: 20em;
+        height: 15em;
+    }
+    .menu-productos{
+        max-width:100%;
+        
+    }
+    .menu-productos ul{
+        display: inline-block;
+        padding: 0;
+    }
+    .slider{
+        height: 100%;
+    }
+    .blondie-puerta{
+        display: block;
+    }
+    ._button{
+        top: ;
+    }
+
+}   
