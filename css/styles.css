@@ -153,6 +153,7 @@ body{
     border-bottom: 1px solid black;
 }
 .cajas-hamburguesas h3{
+    display: inline-block;
     font-size: 2em;
     font-family: 'Rajdhani', sans-serif;
     padding: .5em;
@@ -334,65 +335,25 @@ body{
     }
 }
 @media (max-width: 992px){
-    .#particles-js{
-        
-    }
-    .body{
-        font-size:8px
-    }
     .cajas-hamburguesas{
         width: 100%;
-        border: 1px solid black;
-        display: inline-block;
     }
-    .cajas-hamburguesas h3 {
-        display: inline-block;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        text-align: left;
-    }
-    .cajas-hamburguesas h2{
-        text-align: left;
-    }
-
-    .hamb-1, .hamb-2, .hamb-3,  .hamb-4,.hamb-5, .hamb-6{
+    .caja-1, .caja-2, .caja-3, .caja-4, .caja-5, .caja-6, .caja-7{
         display: block;
-        top: 0;
-        border-radius: 1em;
-        margin-bottom: 2em;
-        width:40%;
-        height: 100%
-        
-       
     }
-    .cajas-hamburguesas h3, .cajas-hamburguesas h4, .cajas-hamburguesas h5, .cajas-hamburguesas h6{
-        display: none;
+    .caja-7 .hamb-6{
+        width: 80%;
+        height: 100%;
     }
-    .cajas-hamburguesas h3.show, .cajas-hamburguesas h4.show{
-        display: inline-block;
-    }
-    .cajas-hamburguesas h4.show{
-        float: right;
+    .hamb-1, .hamb-2, .hamb-3, .hamb-4, .hamb-5, .hamb-6{
+        width: 80%;
+        height: 100%;
+        border-radius: 3em;
     }
     .hamb-1 img, .hamb-2 img,.hamb-3 img,.hamb-4 img, .hamb-5 img,  .hamb-6 img{
         width: 100%;
-        height: 30em;
-    }
-    .caja-7 .hamb-6{
-        height: 100%;
-    }
-    .menu-hamb-icon{
-
-        float: right;
-        bottom: 0;
-        right: 0;
-    }
-
-    .menu-hamb-icon i{
-        font-size: 30px;
-        margin-right: .5em;
-   
+        height: 80%;
+        border-radius: 3em 3em 0 0;
     }
     .menu-productos{
         display: flex;       
@@ -424,16 +385,8 @@ body{
         display: block;
         padding: 0;
     }
-    .slider{
-        height: 100%;
-    }
     .blondie-puerta{
         display: block;
-    }
-    .menu-icon{
-        display: block;
-        cursor: pointer;
-        width: ;
     }
 
 }   
