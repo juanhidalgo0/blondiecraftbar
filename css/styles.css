@@ -144,15 +144,17 @@ body{
     border-bottom: 1px solid black;
 }
 .cajas-hamburguesas h3{
-    font-size: 1.5625em;
+    font-size: 2em;
     font-family: 'Rajdhani', sans-serif;
     padding: .5em;
     height: 4em;
     
 }
 .cajas-hamburguesas h4{
+    
     font-size: 3.125em;
-    padding: .5em;
+    padding-right: .5em;
+    padding-top: 0.5em;
     color: black;
     text-align: right;
     font-family: "Bebas Neue", cursive;
@@ -171,7 +173,7 @@ body{
     border-bottom: 1px solid black;
 }
 .caja-7 .hamb-6{
-    height: 73em;
+    height: 75em;
 }
 .extras{
     font-size: 1.25em;
@@ -195,7 +197,7 @@ body{
     margin-right: auto;
     margin-bottom: 2em;
     width: 35em;
-    height: 55em;
+    height: 53em;
     background-color: rgb(250, 231, 212);
     position: relative;
     
