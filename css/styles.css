@@ -5,9 +5,6 @@
     margin: 0;
 }
 .container{
-    display: grid;
-    grid-template-columns: 
-    
 }
 
 html{
@@ -47,7 +44,7 @@ body{
     display: flex;
     justify-content: center;
     list-style: none;
-    width: 100%;
+    
     
 }
 .nav-menu ul li a{
@@ -91,16 +88,8 @@ body{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-right: 1em;
-    padding-left: 1em;
-
-
-    
-
 }
 .menu-productos ul li a{
-    
-    
     width: 100%;
     text-decoration: none;
     font-size: 3em;
@@ -108,8 +97,6 @@ body{
     color: black;
     margin-left: .5em;
     margin-right: .5em;
-    
-
   }
 
 .menu-productos ul li a:hover{
@@ -119,7 +106,7 @@ body{
 }
 
 .n-hamburguesas{
-    margin: auto;
+    
     margin-top: 5%;
     text-align: center;
     width: 100%;
@@ -173,7 +160,6 @@ body{
     font-family: "Bebas Neue", cursive;
 }
 .cajas-hamburguesas h5{
-    k;
     font-family: "Bebas Neue", cursive;
     font-size: 3.125em;
     text-align: center;
@@ -274,9 +260,38 @@ body{
     width: 100%;
     line-height: 0;
 }
-.menu-icon{
+.menu-celulares{
     display: none;
+    width: 100%;
+    height: 3em;
+    background-color: #feeed4;
+    align-content: center;
+    border:1px  solid black ;
 }
+.menu-icon{
+    float: right;
+    display: none;
+    font-family: "Bebas Neue",cursive;
+    align-items: center;
+    width: 10;
+    height: 100%;
+    margin-right: 5%;
+    color: #e12d30;
+  
+    cursor: pointer;
+}
+.menu-icon h2{
+    font-size: 2.5em;
+    color: #e12d30;
+    display: inline;
+    
+}
+.menu-icon i{
+    margin-left: 15%;
+    display: inline;
+    font-size: 3em;
+}
+
 .blondiecraftbar img{
     margin: 0;
     width:inherit;
@@ -373,22 +388,17 @@ body{
     .menu-productos ul.show{
         display: block;
     }
-    .menu-icon{
-        z-index: 999;
-        width: 5em;
-        height: 5em;
-        border: 3px solid red;
+    .menu-celulares{
         display: block;
-        position: absolute;
-        right: 0;
-        color: white;
-        background-color: black;
-        cursor: pointer;
+    }
+    .menu-icon{
+        display: block;
     }
     .menu-productos ul li{
         display: block;
         padding: 0;
     }
+
     .blondie-puerta{
         display: block;
     }
