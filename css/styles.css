@@ -5,7 +5,9 @@
     margin: 0;
 }
 .container{
-    z-index: -1;
+    display: grid;
+    grid-template-columns: 
+    
 }
 
 html{
@@ -19,6 +21,7 @@ body{
     background-repeat: repeat-y;
     font-size: 16px;
     overflow-x: hidden;
+    overflow: scroll;
     max-width: 100%;
 }
 #particles-js{
@@ -170,6 +173,7 @@ body{
     font-family: "Bebas Neue", cursive;
 }
 .cajas-hamburguesas h5{
+    k;
     font-family: "Bebas Neue", cursive;
     font-size: 3.125em;
     text-align: center;
@@ -208,7 +212,7 @@ body{
     margin-right: auto;
     margin-bottom: 2em;
     width: 35em;
-    height: 53em;
+    height: 100%;
     background-color: rgb(250, 231, 212);
     position: relative;
     
