@@ -65,11 +65,11 @@ body{
 .logo{  
     z-index: 2999;
     position: fixed;
-    width: 12em;
+    width: 8em;
     transition: all 0.1s ease-in;
 }
 .logo:hover{
-    width: 13em;
+    width: 10em;
     
 }
 .nav-menu h2{
@@ -77,36 +77,36 @@ body{
 }
 
 .menu-productos{
-    
+    font-size: 2rem;
     width: 100%;
     background-color: #feeed4;
-    border-top: 0.1875em solid black;
-    border-bottom: 0.1875em solid black;
+   
 }
 .menu-productos ul{   
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
+    padding: .3rem;
+    border: 1px solid black;
 }
 .menu-productos ul li a{
     width: 100%;
     text-decoration: none;
-    font-size: 3em;
     font-family: 'Bebas Neue', cursive;
     color: black;
-    margin-left: .5em;
-    margin-right: .5em;
+    padding:.3rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
   }
 
 .menu-productos ul li a:hover{
     border-bottom: 1px solid black;
-    font-size: 2.75em;
-    color: rgb(219, 37, 37);
+    font-size: 1.9rem;
+    color: darkred;
 }
 
 .n-hamburguesas{
-    
     margin-top: 5%;
     text-align: center;
     width: 100%;
@@ -114,13 +114,13 @@ body{
 
 .n-hamburguesas h2{
     text-transform: uppercase;
-    font-size:6.25em;
+    font-size:4.25em;
     font-family: 'Bebas Neue', cursive;
     color: #feeed4;
 }
 .n-hamburguesas h3{
     font-family: 'Bebas Neue', cursive;
-    font-size: 3.125em;
+    font-size: 3em;
     color: #feeed4;
 }
 .n-hamburguesas h2:hover, .n-hamburguesas h3:hover{
@@ -128,61 +128,55 @@ body{
     
 }
 .cajas-hamburguesas{
-    width:74em;
+    width:47rem;
     z-index: 1;
     margin: auto;
-    margin-top: 2em;
-
-
+    margin-top: 2rem;
 }
 .cajas-hamburguesas h2{
-    font-size:  2.5em;
+    font-size:  2.5rem;
     font-family: 'Bebas Neue', cursive;
-    padding-left:.5em;
+    padding-left:.5rem;
     color: #e12d30;
     border-bottom: 1px solid black;
 }
 .cajas-hamburguesas h3{
     display: inline-block;
-    font-size: 2em;
+    font-size: 1rem;
     font-family: 'Rajdhani', sans-serif;
-    padding: .5em;
-    height: 4em;
+    padding: .5rem;
+    
     
 }
 .cajas-hamburguesas h4{
-    
-    font-size: 3.125em;
-    padding-right: .5em;
-    padding-top: 0.5em;
-    color: black;
+    font-size: 2rem;
+    padding-right: .5rem;
+    padding-top: 0.5rem;
+    color: rgb(32, 32, 32);
     text-align: right;
     font-family: "Bebas Neue", cursive;
 }
 .cajas-hamburguesas h5{
     font-family: "Bebas Neue", cursive;
-    font-size: 3.125em;
+    font-size: 2rem;
     text-align: center;
     color: #e3f822;
     background-color: rgb(31, 31, 31);
 }
 .cajas-hamburguesas h6{
     font-family: "Bebas Neue", cursive;
-    font-size: 1.875em;
+    font-size: 1.5rem;
     padding: .5em;
     border-bottom: 1px solid black;
 }
-.caja-7 .hamb-6{
-    height: 75em;
-}
 .extras{
-    font-size: 1.70em;
+    font-size: 2em;
     text-align: center;
     font-family: "Bebas Neue",cursive;
     width: 100%;
     background-color: #feeed4;
-    margin-bottom: 3em;
-    margin-top: 3em;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .caja-1, .caja-2, .caja-3, .caja-4, .caja-5, .caja-6, .caja-7{
@@ -217,6 +211,7 @@ body{
     z-index: 1;
 }
 ._button{
+    z-index: 9999;
     position: absolute;
     width: 100%;
     margin: auto;
@@ -312,19 +307,22 @@ body{
 }
 
 .whatsapp{
-    position:fixed;
+    position: fixed;
     z-index: 99;
     right: 0;
     bottom: 0;
-    margin: 1em;
+    width: 100%;
+    margin-bottom: 4em;
     transition: all 0.1s ease-in;
 }
 .whatsapp img{
-    width: 10em;
+    margin: 1em;
+    float: right;
+    width: 5em;
     transition: all 0.1s ease-in;
 }
 .whatsapp img:hover{
-    width: 13em;
+    width: 7rem;
 }
 .footer{
     background-color: black;
@@ -354,6 +352,9 @@ body{
     }
 }
 @media (max-width: 992px){
+    body{
+        font-size: 8px;
+    }
     .cajas-hamburguesas{
         width: 100%;
     }
