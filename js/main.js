@@ -52,3 +52,9 @@ jQuery("document").ready(function($){
     })
 
 });
+window.onload = function(){
+    var contenedor = document.GetElementById("container");
+    contenedor.style.visibility = "hidden";
+    contenedor.style.opacity = "0";
+
+}
