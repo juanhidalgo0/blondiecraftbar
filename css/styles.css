@@ -122,7 +122,7 @@ body{
     
 }
 .cajas-hamburguesas{
-    width:47rem;
+    width:74em;
     z-index: 1;
     margin: auto;
     margin-top: 2rem;
@@ -136,14 +136,14 @@ body{
 }
 .cajas-hamburguesas h3{
     display: inline-block;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     padding: .5rem;
     
     
 }
 .cajas-hamburguesas h4{
-    font-size: 2rem;
+    font-size: 3rem;
     padding-right: .5rem;
     padding-top: 0.5rem;
     color: rgb(32, 32, 32);
@@ -152,14 +152,14 @@ body{
 }
 .cajas-hamburguesas h5{
     font-family: "Bebas Neue", cursive;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: #e3f822;
     background-color: rgb(31, 31, 31);
 }
 .cajas-hamburguesas h6{
     font-family: "Bebas Neue", cursive;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding: .5em;
     border-bottom: 1px solid black;
 }
