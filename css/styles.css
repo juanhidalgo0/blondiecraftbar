@@ -309,13 +309,20 @@ body{
     right: 0;
     bottom: 0;
     width: 100%;
+    height: 15em;
     transition: all 0.1s ease-in;
 }
 .whatsapp img{
     margin: 1em;
-    float: right;
+    float: left;
     width: 12em;
     transition: all 0.1s ease-in;
+}
+.whatsapp i{
+    margin: .5rem ;
+    font-size: 12em;
+    float: right;
+    color: black;
 }
 .whatsapp img:hover{
     width: 14em;
